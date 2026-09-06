@@ -1,5 +1,13 @@
-import Image from "next/image";
+import Header from '@/components/layouts/Header.tsx'
+import Footer from '@/components/layouts/Footer.tsx'
 
 export default function Home() {
-  return (<h1>Hello World</h1>);
+  return (<>
+    <Header/>
+    <section id="heroes"></section>
+    <main>
+    hello
+    </main>
+    <Footer/>
+    </>);
 }
