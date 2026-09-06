@@ -1,8 +1,9 @@
-import React from 'react'
-'Use Client'
+'use client'
 
-export const Button = ({TextContent='me', ClassName=''})=>{
+const Button = ({TextContent, ClassName=''}: {TextContent: string, ClassName?: string})=>{
   return(
-    <button className={`${ClassName}`} onClick={() => {}}>{TextContent}</button>
+    <button className={`rounded py-3 px-6 ${ClassName}`} >{TextContent}</button>
     )
 }
+
+export {Button}
