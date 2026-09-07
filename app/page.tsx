@@ -167,7 +167,7 @@ export default function Home() {
     </section>
     
     <section id='book-a-consultation' className='bg-primary text-white text-center'>
-      <p>Want to accelerate professional growth and development at your organisation? See how we can help.</p>
+      <p>Want to accelerate professional growth and development at your organisation? See how we can help.</p>
       <Button TextContent='Book a Consultation'
       ClassName='bg-white text-primary'/>
     </section>

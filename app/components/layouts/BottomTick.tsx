@@ -1,5 +1,6 @@
 import {Button} from '@/components/ui/Elements'
 import {FooterCard} from '@/components/ui/Cards'
+import {LinkedInIcon, InstagramIcon, XIcon} from '@/components/ui/IconLibrary'
 type SectionProps={
   Title: string,
   Contents: string[] | string,
@@ -39,7 +40,14 @@ const GetInTouch =()=>{
 const Footer = ()=>{
   return(<footer className='mt-px bg-secondary-black text-white'>
     <div className="mx-auto grid max-w-6xl gap-10 px-4 py-12 sm:grid-cols-2 sm:px-8 lg:grid-cols-[1.4fr_1fr_1fr_1fr_1.1fr] lg:px-12">
-      <Section Title='Tobams Group' Contents='Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.'/>
+      <div>
+        <Section Title='Tobams Group' Contents='Tobams Group is an innovative consultancy firm reshaping the future of tech talent development in Africa, specializing in talent acquisition, internships, and skill development with a global perspective.'/>
+        <div className="mt-5 flex items-center gap-4 text-neutral-gray">
+          <a aria-label="LinkedIn" className="transition-colors hover:text-white"><LinkedInIcon/></a>
+          <a aria-label="Instagram" className="transition-colors hover:text-white"><InstagramIcon/></a>
+          <a aria-label="X" className="transition-colors hover:text-white"><XIcon/></a>
+        </div>
+      </div>
       <Section Title='what we do' Contents={FooterSections['What we do']}/>
       <Section Title='company' Contents={FooterSections['Company']}/>
       <Section Title='solution' Contents={FooterSections['Solution']}/>
