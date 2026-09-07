@@ -23,7 +23,9 @@ const TestemonialCard =({Comment='heli', CommenterName='John Doe', CommenterTitl
     </div>)}
 
 const FooterCard =({Title, Heading, Contents, ClassName=''}: {Title: string, Heading: string, Contents: string[] | string, ClassName?: string})=>{
-  return(<div className={`${ClassName}`}>
+  return(<div className={`${ClassName} relative`}>
+  <div className='absolute rounded-[inherit] -z-1 top-0 -left-0.5 w-full h-full bg-accent'></div>
+  
     <h3>{Title}</h3>
     <h4>{Heading}</h4>
     {Array.isArray(Contents) ? (
