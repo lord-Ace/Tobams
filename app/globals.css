@@ -1,7 +1,5 @@
 @import "tailwindcss";
 
-@import "tailwindcss";
-
 @theme {
   /* Primary */
   --color-primary: #571244;       /* core brand purple */
@@ -26,9 +24,8 @@
   --color-neutral-offwhite: #F8F8F8;
 
   /* Overlay */
-  --color-overlay-black: #000000B2;       /* 70% opacity black overlay */
+  --color-overlay-black: #000000;       /* 70% opacity black overlay */
 
   /* Isolated utility color — confirm before using as brand blue */
-  --color-link: #1671D9;
   --color-black: #000000;
 }

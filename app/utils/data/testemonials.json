@@ -1,0 +1,23 @@
+[
+  {
+    "id": "aisha-yusuf",
+    "commenterName": "Aisha Yusuf",
+    "commenterTitle": "Founder, CraftHub HQ",
+    "comment": "Working with Tobams Group on our website was a breeze. They understood our vision and transformed it into a beautiful online space. Highly recommend their Website Design service!",
+    "imgPath": "/assets/aisha.png"
+  },
+  {
+    "id": "john-davies",
+    "commenterName": "John Davies",
+    "commenterTitle": "Marketing Manager, Digital Marketing Emporium",
+    "comment": "Tobams Group's Digital Marketing strategies gave our brand the boost it needed. Simple yet powerful techniques that delivered tangible results. A pleasure to collaborate with!",
+    "imgPath": "/assets/john.png"
+  },
+  {
+    "id": "chinonso-nwankwo",
+    "commenterName": "Chinonso Nwankwo",
+    "commenterTitle": "HR Director, FutureTech Solutions",
+    "comment": "Tobams Group has been instrumental in our talent acquisition journey. Their Tech Talent Solution service consistently connects us with the right professionals. Reliable and straightforward.",
+    "imgPath": "/assets/chinonso.png"
+  }
+]
