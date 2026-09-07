@@ -33,7 +33,7 @@ const GetInTouch =()=>{
         <h2 className="mt-3 max-w-2xl text-2xl font-bold leading-tight sm:text-3xl">Let’s work together to create a difference</h2>
       </div>
       <Button TextContent='Get in Touch'
-        ClassName='self-start bg-accent text-white md:self-center'/>
+        ClassName='self-start bg-primary text-white md:self-center'/>
     </div>
   </section>)}
 

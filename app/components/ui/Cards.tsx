@@ -11,7 +11,7 @@ const CardStyle1 = ({Title, Description, Points, ImgPath, ClassName=''}: {Title:
   </div>)
 }
 
-const TestemonialCard =({Comment='heli', CommenterName='John Doe', CommenterTitle='CEO', ImgPath='/path/to/default/image.jpg', ClassName=''}: {Comment: string, CommenterName: string, CommenterTitle: string, ImgPath: string, ClassName?: string})=>{
+const TestemonialCard =({Comment='heli', CommenterName, CommenterTitle, ImgPath, ClassName=''}: {Comment: string, CommenterName: string, CommenterTitle: string, ImgPath: string, ClassName?: string})=>{
   return(<div className={`relative bg-white rounded-2xl py-5 px-6 m-10 ${ClassName}`}>
     <div className='absolute rounded-[inherit] -z-1 top-0 -left-0.5 w-full h-full bg-accent'></div>
     <div id="top">
@@ -23,9 +23,7 @@ const TestemonialCard =({Comment='heli', CommenterName='John Doe', CommenterTitl
     </div>)}
 
 const FooterCard =({Title, Heading, Contents, ClassName=''}: {Title: string, Heading: string, Contents: string[] | string, ClassName?: string})=>{
-  return(<div className={`${ClassName} relative`}>
-  <div className='absolute rounded-[inherit] -z-1 top-0 -left-0.5 w-full h-full bg-accent'></div>
-  
+  return(<div className={`${ClassName}`}>
     <h3>{Title}</h3>
     <h4>{Heading}</h4>
     {Array.isArray(Contents) ? (
